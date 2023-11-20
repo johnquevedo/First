@@ -1,0 +1,142 @@
+body {
+    font-family: 'Comic Neue', sans-serif;
+    background-color: #15202B;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #192734;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .navbar li {
+    padding: 0 20px;
+  }
+  
+  .navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .navbar a:hover {
+    color: #1DA1F2;
+  }
+  
+  h1 {
+    margin: 50px 0;
+    font-size: 2.5em;
+  }
+  
+  button {
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  
+  button:hover {
+    background-color: #0c7b8b;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  nav ul li a:hover {
+    color: #555;
+  }
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  .founder {
+    margin-bottom: 20px;
+  }
+  .founder img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+  }
+  .project {
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .resource-category {
+    margin-bottom: 40px;
+  }
+  .resource-category h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  .resource-list {
+    margin-top: 20px;
+  }
+  .resource-list li {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .founder-message {
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .event-list {
+    margin-top: 20px;
+  }
+  .event-list li {
+    text-align: left;
+    margin-bottom: 10px;
+  }
